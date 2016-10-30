@@ -4,7 +4,7 @@ Simply Wall St Portfolio Analysis Model
 Overview of the model
 ---------------------
 
-The Simply Wall Street (SWS) app is designed to help make you a better investor by allowing you to make non-emotional long term investment decisions. It is recommended you read our Company Analysis Model documentation before this, as it is based upon the results of that analysis.
+The Simply Wall Street (SWS) app is designed to help make you a better investor by allowing you to make non-emotional long term investment decisions. It is recommended you read our [Company Analysis Model](http://github.com/SimplyWallSt/Company-Analysis-Model/blob/master/MODEL.markdown) documentation before this, as it is based upon the results of that analysis.
 
 For many investors their Portfolio is nothing more than a list of stocks with positive or negative returns. The aim of the SWS Portfolio infographic report is to improve the users understanding of their Portfolio and therefore make better decisions by:
 
