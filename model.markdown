@@ -48,7 +48,7 @@ The Portfolio Snowflake is calculated from the weighted average of the individua
 
 The best and worst contribute to each score on the Portfolio Snowflake is calculated by:
 
-Contributor value = Score \* Weighting
+    Contributor value = Score \* Weighting
 
 The Best (Highest) and Worst (Lowest) scores from each holdings are the contributors.
 
@@ -131,11 +131,8 @@ Any stock splits (or consolidations) are included in the returns calculation.
 
 If a stock is held in a different currency to that of the Portfolio then conversions are done based on end of day prices on:
 
--   Any Sell transactions
-
--   Any dividends which are not re-invested
-
--   The end value of the Portfolio
+-   Any Buy or Sell transactions
+-   The current value of the Portfolio + the currenct value of any dividend payments
 
 Remaining Portfolio Data
 ------------------------
