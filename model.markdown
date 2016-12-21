@@ -121,18 +121,36 @@ Regardless of Portfolio type any corporate actions are included.
 
 Any dividends paid are included in the returns calculation.
 
-If the option for dividend re-investment is selected then any dividends paid are converted into the equivalent number of shares on the day of the action.
+If the option for dividend reinvestment is selected then any dividends paid are converted into the equivalent number of shares on the day of the action.
+
+### Dividend Reinvestment
+Dividends can be reinvested on a per stock basis. This converts any dividend payments to an equivalent fractional share purchase on that day at 0 cost.
 
 #### Splits
 
-Any stock splits (or consolidations) are included in the returns calculation.
+Any stock splits (or consolidations) are included in the returns calculation. If a stock split results in a fractional share this is rounded up the nearest whole number of shares, as per common practice.
 
 ### Currency Conversion
 
 If a stock is held in a different currency to that of the Portfolio then conversions are done based on end of day prices on:
 
 -   Any Buy or Sell transactions
--   The current value of the Portfolio + the currenct value of any dividend payments
+-   The current value of the Portfolio + the currenct value of any dividend payments which have not been reinvested
+
+#### Example Currency Conversion Calculation
+    **Example currency conversion calculation**
+    				USD		AUD	Exchange Rate
+    Buy 100 shares @ $10	$1,000 	 	$1,400 	1.4
+    Current Value	 	$1,200 	 	$1,800 	1.5
+			
+    Gain from Currency		 		$100 	
+    Gain from Price	 	$200 	 	$280 	
+			
+    Currency gain from Capital Gain		$20 	
+			
+    Combined gain		 		$400 
+    
+
 
 Remaining Portfolio Data
 ------------------------
