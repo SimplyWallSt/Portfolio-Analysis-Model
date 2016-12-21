@@ -139,16 +139,16 @@ If a stock is held in a different currency to that of the Portfolio then convers
 
 #### Example Currency Conversion Calculation
     **Example currency conversion calculation**
-    				USD		AUD	Exchange Rate
-    Buy 100 shares @ $10	$1,000 	 	$1,400 	1.4
-    Current Value	 	$1,200 	 	$1,800 	1.5
+    						USD			AUD			Exchange Rate
+    Buy 100 shares @ $10	$1,000 	 	$1,400 		1.4
+    Current Value	 		$1,200 	 	$1,800 		1.5
 			
-    Gain from Currency		 		$100 	
-    Gain from Price	 	$200 	 	$280 	
+    Gain from Currency		 			$100 	
+    Gain from Price	 		$200 	 	$280 	
 			
     Currency gain from Capital Gain		$20 	
 			
-    Combined gain		 		$400 
+    Combined gain		 				$400 
     
 
 
