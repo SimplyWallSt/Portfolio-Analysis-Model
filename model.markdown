@@ -135,7 +135,7 @@ Any stock splits (or consolidations) are included in the returns calculation. If
 If a stock is held in a different currency to that of the Portfolio then conversions are done based on end of day prices on:
 
 -   Any Buy or Sell transactions
--   The current value of the Portfolio + the currenct value of any dividend payments which have not been reinvested
+-   The current value of the Portfolio + the current value of any dividend payments which have not been reinvested
 
 #### Example Currency Conversion Calculation
     **Example currency conversion calculation**
