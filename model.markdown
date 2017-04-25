@@ -48,7 +48,7 @@ The Portfolio Snowflake is calculated from the weighted average of the individua
 
 The best and worst contribute to each score on the Portfolio Snowflake is calculated by:
 
-    Contributor value = Score \* Weighting
+    Contributor value = Score \ Weighting
 
 The Best (Highest) and Worst (Lowest) scores from each holdings are the contributors.
 
@@ -76,21 +76,21 @@ We start with the output from the SWS Returns Report for comparison, note this e
     **Simply Wall St Calculation Report**						
 							
     Ticker		Transaction Type	Date		Price/Amount	Shares	Bought		Sold		Years
-    Nasdaq:AMZN	Buy					1/05/2013	$248.23			10		$2,482.30	-			3.39
-    Nasdaq:AMZN	Buy					19/01/2016	$571.77			5		$2,858.85	-			0.67
-    Nasdaq:AMZN	Sell				9/05/2016	$679.75			-10		-			-$6,797.50	
-    Totals																$5,341.15	-$6,797.50	1.93
+    Nasdaq:AMZN	Buy			1/05/2013	$248.23		10	$2,482.30	-		3.39
+    Nasdaq:AMZN	Buy			19/01/2016	$571.77		5	$2,858.85	-		0.67
+    Nasdaq:AMZN	Sell			9/05/2016	$679.75		-10	-		-$6,797.50	
+    Totals										$5,341.15	-$6,797.50	1.93
 						
     Current Position							
     Net original cost	Total shares	Current Price	Current Value	Capital Gain
-    -$1,456.35			5				$778.52			$3,892.60		$5,348.95
+    -$1,456.35		5		$778.52		$3,892.60	$5,348.95
     
     Total Return: 100.15%	
 
 
     **Dollar-Weighted Return Example Calculation**		
-    Gain 	  = Total Gain from Sales + Current Value - Total Bought
-    $5,348.95 =	$6,797.50			  + $3,892.60	  - $5,341.15
+    Gain 	= Total Gain from Sales + Current Value - Total Bought
+    $5,348.95	=$6,797.50		+ $3,892.60	- $5,341.15
 
     Return  = Total Gain / Total Capital Invested
     100.15% = $5,348.95	 / $5,341.15
@@ -106,7 +106,7 @@ We start with the output from the SWS Returns Report for comparison, note this e
     $1,780.38                   = 5			   * $356.08
 
     Return   = ( Current Value - Average Cost ) / Average cost		
-    118.64%  = ( $3,892.60 	   - $1,780.38    ) / $1,780.38
+    118.64%  = ( $3,892.60 - $1,780.38    ) / $1,780.38
 
 
 
